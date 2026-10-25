@@ -15,20 +15,20 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 TARGET_FPS = 3
 
 # Model paths
-MODEL_PATH = "training_result/experiment/CLAHE_cliplimit1/CLAHE_grid32/detection_small_clahe_experiment/weights/best.pt"
-SEG_MODEL_PATH = "training_result/segment/best.pt"
+MODEL_PATH = "model/fix_CLAHE_cliplimit1/CLAHE_grid32/detection_small_clahe_experiment/weights/best.pt"
+SEG_MODEL_PATH = "model/segmentation_model/best.pt"
 
 # Mapper parameters
-MERGE_DISTANCE = 12.5
-UPDATE_RATE = 0.25
-RANSAC_THRESHOLD = 5.0
-ORB_FEATURES = 1000
+MERGE_DISTANCE = 12.0
+UPDATE_RATE = 0.1
+RANSAC_THRESHOLD = 4.0
+ORB_FEATURES = 500
 
 # SAHI parameters
 SAHI_CONF = 0.6
 SAHI_SLICE = 640
-SAHI_OVERLAP = 0.4
-SAHI_MATCH_THRESH = 0.4
+SAHI_OVERLAP = 0.5
+SAHI_MATCH_THRESH = 0.6
 
 # Visualization parameters
 FONT = cv2.FONT_HERSHEY_SIMPLEX
