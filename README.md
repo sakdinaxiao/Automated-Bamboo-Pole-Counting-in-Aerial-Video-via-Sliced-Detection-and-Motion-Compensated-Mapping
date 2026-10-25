@@ -1,4 +1,4 @@
-# Bamboo AI
+#Automated Bamboo-Pole Counting in Aerial Video via Sliced Detection and Motion-Compensated Mapping
 
 computer vision project for detecting, tracking, and counting bamboo in video.
 
